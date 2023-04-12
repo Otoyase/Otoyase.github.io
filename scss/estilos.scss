@@ -1,0 +1,17 @@
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$paleta-personalizada: (
+
+    "azul-grisaseo": #2B2E4A,
+    "rojo-carmesi": #E84545,
+    "carmesi-oscuro": #903749,
+    "marron": #53354A,
+    "blanco-ahumado": #F4F4F4,
+
+);
+
+$theme-colors: map-merge-multiple($theme-colors, $paleta-personalizada);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
