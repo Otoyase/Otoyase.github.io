@@ -4,13 +4,19 @@
 
 $paleta-personalizada: (
 
-    "azul-grisaseo": #2B2E4A,
-    "rojo-carmesi": #E84545,
-    "carmesi-oscuro": #903749,
-    "marron": #53354A,
-    "blanco-ahumado": #F4F4F4,
+    "negro": #222831,
+    "gris": #393E46,
+    "azul-marino": #00ADB5,
+    "blanco": #EEEEEE,
 
 );
+
+.hover-nav:hover {
+
+    background-color: #EEEEEE;
+    color : #222831 !important;
+
+}
 
 $theme-colors: map-merge-multiple($theme-colors, $paleta-personalizada);
 
