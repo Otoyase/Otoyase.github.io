@@ -1,0 +1,27 @@
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$paleta-personalizada: (
+
+    "negro": #13111C,
+    "violeta": #853bce,
+    "violeta-oscuro": #291839,
+    "verde": #3e8866,
+    "verde-claro": #95d0b4,
+    "verde-oscuro": #15231d,
+    "azul": #306ee8,
+    "azul-oscuro": #0f1b33,
+    "rojo": #4f1817,
+    "rojo-oscuro": #2c1111,
+    "rojo-claro": #e89d9c,
+    "blanco": #ffffff,
+    "gris": #403f4b,
+    
+);
+
+$font-family-sans-serif: 'Montserrat', sans-serif;
+
+$theme-colors: map-merge-multiple($theme-colors, $paleta-personalizada);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
