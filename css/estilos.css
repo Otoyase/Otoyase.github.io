@@ -1,7 +1,7 @@
 body {
 
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inconsolata', monospace;
+
 
 }
 
@@ -111,5 +111,24 @@ body {
 
     color: #ffffff;
     border-color: #ffffff;
+
+}
+
+.enlace-contacto:hover {
+
+    transform: translateY(10px);
+    transition: 0.5s;
+
+}
+
+.mt-10 {
+
+    margin-top: 10rem;
+
+}
+
+.mb-10 {
+
+    margin-bottom: 10rem;
 
 }
